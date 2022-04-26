@@ -7,11 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<!-- Opdracht 1 
-Write a simple PHP class which displays the following string.
-'MyClass class has been initialized!' -->
-
-<?php
+    <?php
 
 class Message {
     // Properties
@@ -19,7 +15,7 @@ class Message {
   
   
     // Methods
-    function set_text($text) {
+    function __construct ($text) {
       $this->text = $text;
     }
     function get_text() {
@@ -27,14 +23,16 @@ class Message {
     }
   }
   
-  $message = new Message();
+  $message = new Message('MyClass class has been initialized!');
   
-  $message->set_text('MyClass class has been initialized!');
   
   
   echo $message->get_text();
-  
-  ?>
 
+
+
+
+
+?>
 </body>
 </html>

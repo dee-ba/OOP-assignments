@@ -56,7 +56,7 @@ $bmw = new Car(2000, "BMW");
     echo "BMW is cheaper"; 
  }
 
-$boatService->showBestPerformingBoat();
+// $boatService->showBestPerformingBoat();
 //loops all the internal booats
 //compares all their profits
 //returns the boat that provided the most money
