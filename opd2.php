@@ -12,24 +12,21 @@
 // "Opdracht 2
 // Write a simple PHP class which displays an introductory message like "Hello All, I am Scott", where "Scott" is an argument value of the method within the class." 
 
-// Solution 1
-class Message {
-  // Properties
-  public $greet;
-  // Methods
-  function set_name($greet) {
-    $this->greet = $greet;
+// Solution 2
+
+class Intro {
+  public $name;
+
+  function __construct($name) {
+    $this->name = $name; 
   }
   function get_name() {
-    return $this->greet;
+    return $this->name;
   }
-
 }
 
-$scott = new Message();
-$scott->set_name('Scott');
-echo "Hello All, I am " . $scott->get_name();
-
+$user = new Intro("Scott");
+echo "Hello All, I am" . $user->get_name();
 
 ?>
 </body>

@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<!-- echo Opdracht 3 
+  <!-- echo Opdracht 3 
 Write a PHP calculator class which will accept two values as arguments, then add them, subtract them, multiply them together, or divide them on request.
 
 For example :
@@ -41,9 +41,7 @@ $numbers->input_two_no(12,6);
 echo $numbers->the_sum();
 $numbers->output_the_sum();
 
-
-
-
+// echo $mycalc- > add();
 
 ?>
 </body>
