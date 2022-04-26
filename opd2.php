@@ -14,11 +14,23 @@ Write a simple PHP class which displays an introductory message like "Hello All,
 // Solution 1
 class Message {
 
-  $name;
+  // Properties
+  public $name;
+
+
+  // Methods
+  function set_name($name) {
+    $this->name = $name;
+  }
+  function get_name() {
+    return $this->name;
+  }
 
 }
 
-$user_greeting = new Message ()
+$user_greeting = new Message ();
+$user_greeting -> new Message ('hello');
+
 
 
 
