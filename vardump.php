@@ -2,8 +2,6 @@
 
 class NewClass {
     public $info = "This is some info";
-
-
 }
 
 
