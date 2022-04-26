@@ -18,6 +18,7 @@ class Message {
 
 }
 
+$user_greeting = new Message ()
 
 
 
