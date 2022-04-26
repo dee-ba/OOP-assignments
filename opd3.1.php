@@ -16,33 +16,24 @@ echo $mycalc- > add(); // Displays 18
 echo $mycalc- > multiply(); // Displays 72 -->
 <?php
    class MyCalculator{
-    var $number1;
-    var $number2;
-    var $total;
+    public $num1;
+    public $num2;
+    
 
     public function input_two_no($num1,$num2){
-        $this->number1=$num1;
-        $this->number2=$num2;
+        $this->num1=$num1;
+        $this->num2=$num2;
     }
 
     public function the_sum(){
         $this->total = $this->number1+$this->number2;
     }
-
-    public function output_the_sum(){
-    echo $this->total;
     }
 
-}
+$mycalc = new MyCalculator ();
 
-$numbers = new MyCalculator;
-$numbers->input_two_no(12,6);
 
-echo $numbers->the_sum();
-$numbers->output_the_sum();
-
-// echo $mycalc- > add();
-
+echo $mycalc-> add(12,6);
 ?>
 </body>
 </html>

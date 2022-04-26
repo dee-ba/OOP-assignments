@@ -16,9 +16,9 @@ echo $mycalc- > add(); // Displays 18
 echo $mycalc- > multiply(); // Displays 72 -->
 <?php
    class MyCalculator{
-    var $number1;
-    var $number2;
-    var $total;
+    public $number1;
+    public $number2;
+    public $total;
 
     public function input_two_no($num1,$num2){
         $this->number1=$num1;
