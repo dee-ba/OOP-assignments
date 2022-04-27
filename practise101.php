@@ -23,28 +23,16 @@ class Calculator {
         return $this->num1 + $this->num2;
     
     }
-    public function subtract(){
-        return $this->num1 - $this->num2;
-    
     }
-    public function multiply(){
-        return $this->num1 * $this->num2;
     
-    }
+    
+    $mycalc = new Calculator(1,1);
+    echo  $mycalc-> add();
+    
 
-    public function divide(){
-        return $this->num1 / $this->num2;
-    
-    }
-    }
-    
-    
-    $mycalc = new Calculator(12,6);
-    echo $mycalc-> add();
-    echo $mycalc ->multiply();
-    echo $mycalc ->subtract();
-    echo $mycalc ->divide();
-    
+
+
+
 
 
 ?>

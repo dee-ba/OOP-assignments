@@ -10,15 +10,21 @@
     <?php
 class Person {
 public $name;
-public function __construct($name) {
-$this->name = $name;
-}
-}
+public function __construct($name) {     //public function setName($name) {
+    $this->name = $name;}}               // $this->name = $name; }}
 
-$person1 = new Person ("Diba");
-echo $person1->name; 
+                                    // if we were using setName() the object would be set as follows:
+
+
+$person1 = new Person ("Diba");         // $person1 = new Person ();
+echo $person1->name;                    // $person1->setName("Diba");
+                                        // echo $person1->$name;
+
 
 
 ?>
+
+
+
 </body>
 </html>
