@@ -22,7 +22,7 @@ $this->nationality= $nationality;
 
 $person1 = new People ();
 $person2 = new People ();
-$person1 ->setName("Sam","28", "Dutch");
+$person1 ->setName("John","28", "American");
 echo $person1->name; 
 echo $person1->age; 
 echo $person1->nationality; 
