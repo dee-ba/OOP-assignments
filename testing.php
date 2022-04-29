@@ -7,23 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
- 
+<?php
+
+class Taxi{
+ public $time;
+ public $distance;
+
+ public function __construct($time,$distance){
+     $this->time=$time;
+     $this->distance=$distance;
+ }
+
+ public function total(){
+     $this->total = $this->time*$0.17 + $this->distance*$0.50;
+ }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
 ?>
+ 
+
+
+
+
+
+
  </body>
 </html>
