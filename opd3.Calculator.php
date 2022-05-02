@@ -17,7 +17,9 @@ echo $mycalc- > multiply(); // Displays 72 -->
 
 <?php
    class Calculator {
-    private $num1 , $num2;
+    public $num1;
+    public $num2;
+    
 
     public function __construct($num1, $num2){
         $this->num1 = $num1;
