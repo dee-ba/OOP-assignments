@@ -5,24 +5,23 @@
 // THE CLASSNAME SHOULD BE SINGULA AND CAPITALIZED: Company - Administration - Order - Person - Product.
 // YOU NEVER INSTANTIATE THE CLASS IN THE CLASS FILE. NO $example = new Example(); in this file.
 
-Class Taxi {
+Class Admin {
 
+ public $distance;
+ public $duration;
+
+
+
+  methods
+  public function __construct ($distance,$duration){
+      $this->distance = $distance;
+      $this->duration = $duration;
+
+  }
   
-    public $distance;
-    public $time;
+  public function () {
     
-
-    function __construct($distance, $time){
-    $this->distance= $distance;
-    $this->time=$time;
-
-    }
-   
-    function trip(){
-        $this->distance * noOfD
-    }
-
-   
+  }
     
 }
              

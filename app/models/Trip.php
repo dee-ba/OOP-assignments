@@ -5,27 +5,21 @@
 // THE CLASSNAME SHOULD BE SINGULA AND CAPITALIZED: Company - Administration - Order - Person - Product.
 // YOU NEVER INSTANTIATE THE CLASS IN THE CLASS FILE. NO $example = new Example(); in this file.
 
-Class Trip {
+// Class Trip {
 
-    // PROPERTIES
-    public $ride;
-    
+//  public $trips [];
+ 
+ 
+
+
+//   public function __construct ($trips){
+//       $this->trips = $trips;
     
 
-    // CONSTRUCTOR
-    function __construct($noOfTrips){
-        $this->noOfTrip= $noOfTrip;
-            
-    }
-
-    // METHODS
-    public function trip(){
-        echo $this->noOfTrip
-    }
-
+//   }
+  
     
-    
-}
+// }
              
 
 ?>

@@ -13,17 +13,26 @@
     <div class="flex wrapper">
         <!-- COPY THE ASSIGNMENT YOU CHOOSE TO PRACTICE HERE. -->
         <div class="container">
-            <p class="text heading">Opdracht 8 - Contributie </p>
+            <p class="text heading">Opdracht 1 - Taxikosten </p>
             <p class="text paragraph">
-                Bij het bepalen van de jaarlijkse contributie voor een sportvereniging gelden de volgende regels:
-                Seniorleden betalen € 150,=, juniorleden € 75,=. Men is senior lid als men 18 jaar of ouder is.
-                Spelende leden betalen bovendien nog € 45,= bondscontributie.Voor leden die langer dan 7 jaar lid zijn, wordt op de clubcontributie 5% korting in
-                rekening gebracht.
-            </p>
+            Een taxibedrijf heeft een aantal taxi's. De volgende tarieven worden gehanteerd:
+            <ul class="text paragraph" >
+                <li>Per gereden km € 0,50.</li>
+                <li>Daarboven per gereden minuut € 0,17. </li>
+                <li>Van vrijdagavond 22.00 uur tot maandagochtend 7.00 uur geldt een toeslag van 15% (het begintijdstip is hiervoor bepalend).</li>
+            </ul>
+
             <p class="text paragraph">
-                Er dient een programma te worden ontwikkeld waarmee voor elk lid de naam,geboortedatum en datum van ingang lidmaatschap
-                (formaat ddmmjjjj) kunnen worden ingevoerd, evenals of het lid wel of niet spelend lid is. Voor elk lid moet de contributie berekend en getoond worden.
-                Verder moet cumulatief de totale contributie, het gemiddeld aantal lidmaatschap jaren en het jongste lid worden getoond.
+            Er dient een programma te worden ontwikkeld waarmee voor iedere taxirit de begin-en eindtijd (formaat hhmm), evenals de weekdag en de afstand kunnen worden ingevoerd. 
+            Voor elke rit moet het verschuldigde bedrag worden berekenden getoond. <br><br>
+
+            Verder moeten getoond kunnen worden:
+            <ul class="text paragraph">
+                <li>cumulatief de totale inkomsten van het taxibedrijf.</li>
+                <li>De gemiddelde afstanden over alle gereden ritten.</li>
+                <li>De langste ritafstand.</li>
+            </ul>
+
             </p>
         </div>
         <!-- YOUR APP GOES HERE -->
@@ -32,7 +41,8 @@
             <p class="text paragraph">
                 <?php
                     // ALL THE CLASSES WITH THEIR BEHAVIOR GO IN HERE.
-                    require 'models/Example.php';
+                    require 'models/Trip.php';
+                    require 'models/Taxi.php';
                     // YOUR APP IS RUN FROM A MAIN FILE.
                     require 'controllers/app.php'
                 ?>
