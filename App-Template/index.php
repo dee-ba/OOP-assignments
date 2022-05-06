@@ -35,14 +35,16 @@
 
             </p>
         </div>
+       
         <!-- YOUR APP GOES HERE -->
         <div class="container">
             <p class="text heading">App Output Here:</p>
             <p class="text paragraph">
                 <?php
                     // ALL THE CLASSES WITH THEIR BEHAVIOR GO IN HERE.
+                    require 'models/Company.php';
+                    require 'models/Car.php';
                     require 'models/Trip.php';
-                    require 'models/Taxi.php';
                     // YOUR APP IS RUN FROM A MAIN FILE.
                     require 'controllers/app.php'
                 ?>

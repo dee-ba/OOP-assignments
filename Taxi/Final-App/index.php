@@ -42,8 +42,9 @@
             <p class="text paragraph">
                 <?php
                     // ALL THE CLASSES WITH THEIR BEHAVIOR GO IN HERE.
-                    require 'models/Cost.php';
-                    require 'models/Taxi.php';
+                    require 'models/Car.php';
+                    require 'models/Company.php';
+                    require 'models/Owner.php';
                     // YOUR APP IS RUN FROM A MAIN FILE.
                     require 'controllers/app.php'
                 ?>
